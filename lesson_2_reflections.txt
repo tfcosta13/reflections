@@ -1,0 +1,37 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+it is create the directory .git, I need for control the versions.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+Os arquivos na área de preparação podem ser alterados antes de se tornar um commit do repositório.
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Você pode alterar diversos arquivos que envolvam uma mesma aplicação e ir adionando-os ao area de preparação até que tenha concluido todo revisão, podendo consultar seu conteudo.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Para criar um versão alternativa de um software, seja o teste de alguma nova função, ou uma versão em outro idioma, sem perder a versão oficial.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Através de um diagrama é possivel analisar por qual branch posso acessar um commit anterior, verficar quando necessário criar um novo branch para não fazer um commit inacessível.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+Um novo branch "master", que contem tanto o histórico do branch "master" anterior, quanto do branch "coin", sendo assim os dois nós de nosso diagrama se unem e num novo nó com todo o histórico.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Quando há conflitos o git mescla-os mesmo assim e indica para o programador onde está o conflito para que ele possa solucionar o problema, sem dúvida isso é uma imensa vantagem, e quando não há conflitos simplesmente os mescla, não consigo ver qual  seria a vantagem de fazer todo esse processo manualmente.
